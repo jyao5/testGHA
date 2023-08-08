@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: aa
         run: |
-          a = $(curl -s https://dummyjson.com/products/1 | jq .)
+          a=$(curl -s https://dummyjson.com/products/1 | jq .)
           echo $a
   
