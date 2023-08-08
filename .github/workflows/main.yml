@@ -7,5 +7,7 @@ jobs:
   job111:
     runs-on: ubuntu-latest
     steps:
-    - run: curl -s https://dummyjson.com/products/1 | jq .
+    - run: |
+      #a = $(curl -s https://dummyjson.com/products/1 | jq .)
+      #echo $a
   
