@@ -7,5 +7,5 @@ jobs:
   job111:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "hello world"
+    - run: curl https://dummyjson.com/products/1
   
